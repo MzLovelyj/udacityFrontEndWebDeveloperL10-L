@@ -14,14 +14,14 @@
  * It's okay if the output string doesn't match exactly.
  */
 // change the values of `flavor`, `vessel`, and `toppings` to test your code
-var flavor = "chocolate";
+var flavor = "vanilla";
 var vessel = "cone";
-var toppings = "sprinkles";
-
+var toppings = "peanuts";
 
 // Add your code here
-if ((flavor === "chocolate") && (vessel === "cone") && (toppings === "sprinkles")) {
-
+if ((flavor === "chocolate" || flavor === "vanilla") &&
+    (vessel === "cone" || vessel == "bowl") &&
+    (toppings === "peanuts" || toppings === "sprinkles")) {
     console.log("I\'d like two scoops of " +
         flavor + " ice cream in a " +
         vessel + " with " + toppings + ".");

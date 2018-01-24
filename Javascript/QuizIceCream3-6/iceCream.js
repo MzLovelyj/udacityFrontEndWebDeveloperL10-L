@@ -20,7 +20,7 @@ var toppings = "peanuts";
 
 // Add your code here
 if ((flavor === "chocolate" || flavor === "vanilla") &&
-    (vessel === "cone" || vessel == "bowl") &&
+    (vessel === "cone" || vessel === "bowl") &&
     (toppings === "peanuts" || toppings === "sprinkles")) {
     console.log("I\'d like two scoops of " +
         flavor + " ice cream in a " +

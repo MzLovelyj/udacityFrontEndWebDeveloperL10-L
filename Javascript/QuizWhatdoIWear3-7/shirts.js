@@ -1,12 +1,10 @@
-/*
- * Programming Quiz: What do I Wear? (3-7)
+/* Programming Quiz: What do I Wear? (3-7)
  TIP: Make sure to test your code with different values. For example,
 
 If shirtWidth equals 18, shirtLength equals 28 and shirtSleeve equals 8.21, then S should be printed to the console.
 If shirtWidth equals 26, shirtLength equals 33 and shirtSleeve equals 9.63, then 2XL should be printed to the console.
 If shirtWidth equals 18, shirtLength equals 29 and shirtSleeve equals 8.47, then N/A should be printed to the console.
  */
-
 // change the values of `shirtWidth`, `shirtLength`, and `shirtSleeve` to test your code
 var shirtWidth = 23;
 var shirtLength = 30;
@@ -14,8 +12,14 @@ var shirtSleeve = 8.71;
 
 // your code goes here
 if ((shirtWidth >= 18 && shirtWidth < 20) &&
+    /* basically saying shirtWidth is greater than or equal to 18
+     && shirtWidth is less than 20 */
     (shirtLength >= 28 && shirtLength < 29) &&
+    /* basically saying shirtLength is greater than or equal to 28
+    && shirtLength is less than 29 */
     (shirtSleeve >= 8.13 && shirtSleeve < 8.38)) {
+    /* basically saying shirtSleeve is greater than or equal to 8.13
+    && shirtSleeve is less than 8.38 */
     console.log("S");
 } else if ((shirtWidth >= 20 && shirtWidth < 22) &&
     (shirtLength >= 29 && shirtLength < 30) &&

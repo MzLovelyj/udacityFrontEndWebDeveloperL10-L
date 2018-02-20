@@ -24,4 +24,5 @@ while (num >= 0) {
         console.log('T-' + num + ' seconds');
     }
     num--;
+    //this stops the loop.. LOL I crashed my browser 
 }

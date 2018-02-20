@@ -11,9 +11,9 @@ Things to note:
 // Write your code here
 
 for (var row = 0; row < 26; row++) {
-    //the row starts at 0; stops if less than 26; row + 1
+    //the row starts at 0; stops if less than 26 aka 25; row + 1
     for (var seat = 0; seat < 100; seat++) {
-        //seat starts at 0; stops if less than 100; seat + 1
+        //seat starts at 0; stops if less than 100 aka 99; seat + 1
         console.log(row + "-" + seat);
     }
 }

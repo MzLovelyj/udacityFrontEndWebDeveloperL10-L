@@ -1,7 +1,3 @@
-/** Programming Quiz: Facebook Friends (7-5)*/
-
-// your code goes here
-
 var facebookProfile = {
     name: 'Jessica',
     friends: 101,
@@ -33,9 +29,9 @@ console.log(facebookProfile.messages);
 //tested removing the last message
 
 facebookProfile.removeFriend();
-facebookProfile.friends;
+console.log('You have ' + facebookProfile.friends + ' friends');
 // tested removing a friend
 
 facebookProfile.addFriend();
-facebookProfile.friends;
+console.log('You now have ' + facebookProfile.friends + ' friends');
 //tested adding a friend
